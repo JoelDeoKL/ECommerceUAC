@@ -38,10 +38,10 @@
         }
     }
 
-    // require_once('ressources/inc/header.php');
+    require_once('ressources/inc/header.php');
 
     $controller = new $controller();
     $controller->$action($arg);
 ?>
  
-<?php //require_once('ressources/inc/footer.php'); ?>
+<?php require_once('ressources/inc/footer.php'); ?>
