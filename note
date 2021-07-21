@@ -1,0 +1,10 @@
+- comment fonctionne la fonction define()
+- c'est uquoi le DNS define('DSN', 'mysql:host='.DB_SERVER.'; dbname='.DB_NAME);
+- Design Pattern Singleton
+- Fonctionnement du PDO
+- Fonctionnement d'un autoloader
+- C'es quoi un  window.location.replace()
+- file_get_contents() son Fonctionnement
+- Fonctionnement du strrpos() et substr()
+- Fonctionnement du .=
+- Fonctionnement du is_dir(), scandir(), strrpos(), substr(), rowCount(), fetch()
