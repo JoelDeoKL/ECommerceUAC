@@ -35,28 +35,28 @@
 	</div>
 	<div class="themeName">Background Patterns </div>
 	<div class="images patterns">
-		<a href="public/themes/css/#" name="pattern1"><img src="themes/switch/images/pattern/pattern1.png" alt="bootstrap business templates" class="active"></a>
-		<a href="public/themes/css/#" name="pattern2"><img src="themes/switch/images/pattern/pattern2.png" alt="bootstrap business templates"></a>
-		<a href="public/themes/css/#" name="pattern3"><img src="themes/switch/images/pattern/pattern3.png" alt="bootstrap business templates"></a>
-		<a href="public/themes/css/#" name="pattern4"><img src="themes/switch/images/pattern/pattern4.png" alt="bootstrap business templates"></a>
-		<a href="public/themes/css/#" name="pattern5"><img src="themes/switch/images/pattern/pattern5.png" alt="bootstrap business templates"></a>
-		<a href="public/themes/css/#" name="pattern6"><img src="themes/switch/images/pattern/pattern6.png" alt="bootstrap business templates"></a>
-		<a href="public/themes/css/#" name="pattern7"><img src="themes/switch/images/pattern/pattern7.png" alt="bootstrap business templates"></a>
-		<a href="public/themes/css/#" name="pattern8"><img src="themes/switch/images/pattern/pattern8.png" alt="bootstrap business templates"></a>
-		<a href="public/themes/css/#" name="pattern9"><img src="themes/switch/images/pattern/pattern9.png" alt="bootstrap business templates"></a>
-		<a href="public/themes/css/#" name="pattern10"><img src="themes/switch/images/pattern/pattern10.png" alt="bootstrap business templates"></a>
+		<a href="themes/css/#" name="pattern1"><img src="public/themes/switch/images/pattern/pattern1.png" alt="bootstrap business templates" class="active"></a>
+		<a href="themes/css/#" name="pattern2"><img src="public/themes/switch/images/pattern/pattern2.png" alt="bootstrap business templates"></a>
+		<a href="themes/css/#" name="pattern3"><img src="public/themes/switch/images/pattern/pattern3.png" alt="bootstrap business templates"></a>
+		<a href="themes/css/#" name="pattern4"><img src="public/themes/switch/images/pattern/pattern4.png" alt="bootstrap business templates"></a>
+		<a href="themes/css/#" name="pattern5"><img src="public/themes/switch/images/pattern/pattern5.png" alt="bootstrap business templates"></a>
+		<a href="themes/css/#" name="pattern6"><img src="public/themes/switch/images/pattern/pattern6.png" alt="bootstrap business templates"></a>
+		<a href="themes/css/#" name="pattern7"><img src="public/themes/switch/images/pattern/pattern7.png" alt="bootstrap business templates"></a>
+		<a href="themes/css/#" name="pattern8"><img src="public/themes/switch/images/pattern/pattern8.png" alt="bootstrap business templates"></a>
+		<a href="themes/css/#" name="pattern9"><img src="public/themes/switch/images/pattern/pattern9.png" alt="bootstrap business templates"></a>
+		<a href="themes/css/#" name="pattern10"><img src="public/themes/switch/images/pattern/pattern10.png" alt="bootstrap business templates"></a>
 
-		<a href="public/themes/css/#" name="pattern11"><img src="themes/switch/images/pattern/pattern11.png" alt="bootstrap business templates"></a>
-		<a href="public/themes/css/#" name="pattern12"><img src="themes/switch/images/pattern/pattern12.png" alt="bootstrap business templates"></a>
-		<a href="public/themes/css/#" name="pattern13"><img src="themes/switch/images/pattern/pattern13.png" alt="bootstrap business templates"></a>
-		<a href="public/themes/css/#" name="pattern14"><img src="themes/switch/images/pattern/pattern14.png" alt="bootstrap business templates"></a>
-		<a href="public/themes/css/#" name="pattern15"><img src="themes/switch/images/pattern/pattern15.png" alt="bootstrap business templates"></a>
+		<a href="themes/css/#" name="pattern11"><img src="public/themes/switch/images/pattern/pattern11.png" alt="bootstrap business templates"></a>
+		<a href="themes/css/#" name="pattern12"><img src="public/themes/switch/images/pattern/pattern12.png" alt="bootstrap business templates"></a>
+		<a href="themes/css/#" name="pattern13"><img src="public/themes/switch/images/pattern/pattern13.png" alt="bootstrap business templates"></a>
+		<a href="themes/css/#" name="pattern14"><img src="public/themes/switch/images/pattern/pattern14.png" alt="bootstrap business templates"></a>
+		<a href="themes/css/#" name="pattern15"><img src="public/themes/switch/images/pattern/pattern15.png" alt="bootstrap business templates"></a>
 
-		<a href="public/themes/css/#" name="pattern16"><img src="themes/switch/images/pattern/pattern16.png" alt="bootstrap business templates"></a>
-		<a href="public/themes/css/#" name="pattern17"><img src="themes/switch/images/pattern/pattern17.png" alt="bootstrap business templates"></a>
-		<a href="public/themes/css/#" name="pattern18"><img src="themes/switch/images/pattern/pattern18.png" alt="bootstrap business templates"></a>
-		<a href="public/themes/css/#" name="pattern19"><img src="themes/switch/images/pattern/pattern19.png" alt="bootstrap business templates"></a>
-		<a href="public/themes/css/#" name="pattern20"><img src="themes/switch/images/pattern/pattern20.png" alt="bootstrap business templates"></a>
+		<a href="themes/css/#" name="pattern16"><img src="public/themes/switch/images/pattern/pattern16.png" alt="bootstrap business templates"></a>
+		<a href="themes/css/#" name="pattern17"><img src="public/themes/switch/images/pattern/pattern17.png" alt="bootstrap business templates"></a>
+		<a href="themes/css/#" name="pattern18"><img src="public/themes/switch/images/pattern/pattern18.png" alt="bootstrap business templates"></a>
+		<a href="themes/css/#" name="pattern19"><img src="public/themes/switch/images/pattern/pattern19.png" alt="bootstrap business templates"></a>
+		<a href="themes/css/#" name="pattern20"><img src="public/themes/switch/images/pattern/pattern20.png" alt="bootstrap business templates"></a>
 
 	</div>
 	</div>

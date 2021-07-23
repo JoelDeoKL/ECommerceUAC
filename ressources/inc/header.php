@@ -17,7 +17,7 @@
 
 <!-- Bootstrap style -->
     <link id="callCss" rel="stylesheet" href="public/themes/bootshop/bootstrap.min.css" media="screen"/>
-    <link href="themes/css/base.css" rel="stylesheet" media="screen"/>
+    <link href="public/themes/css/base.css" rel="stylesheet" media="screen"/>
 <!-- Bootstrap style responsive -->
 	<link href="public/themes/css/bootstrap-responsive.min.css" rel="stylesheet"/>
 	<link href="public/themes/css/font-awesome.css" rel="stylesheet" type="text/css">
@@ -38,13 +38,13 @@
 	<div class="span6">Welcome!<strong> User</strong></div>
 	<div class="span6">
 	<div class="pull-right">
-		<a href="product_summary.html"><span class="">Fr</span></a>
-		<a href="product_summary.html"><span class="">Es</span></a>
+		<a href="product_summary.php"><span class="">Fr</span></a>
+		<a href="product_summary.php"><span class="">Es</span></a>
 		<span class="btn btn-mini">En</span>
-		<a href="product_summary.html"><span>&pound;</span></a>
+		<a href="product_summary.php"><span>&pound;</span></a>
 		<span class="btn btn-mini">$155.00</span>
-		<a href="product_summary.html"><span class="">$</span></a>
-		<a href="product_summary.html"><span class="btn btn-mini btn-primary"><i class="icon-shopping-cart icon-white"></i> [ 3 ] Itemes in your cart </span> </a>
+		<a href="product_summary.php"><span class="">$</span></a>
+		<a href="product_summary.php"><span class="btn btn-mini btn-primary"><i class="icon-shopping-cart icon-white"></i> [ 3 ] Itemes in your cart </span> </a>
 	</div>
 	</div>
 </div>
@@ -56,8 +56,8 @@
 	<span class="icon-bar"></span>
 </a>
   <div class="navbar-inner">
-    <a class="brand" href="index.html"><img src="public/themes/images/logo.png" alt="Bootsshop"/></a>
-		<form class="form-inline navbar-search" method="post" action="products.html" >
+    <a class="brand" href="index.php"><img src="public/themes/images/logo.png" alt="Bootsshop"/></a>
+		<form class="form-inline navbar-search" method="post" action="products.php" >
 		<input id="srchFld" class="srchTxt" type="text" />
 		  <select class="srchTxt">
 			<option>All</option>
@@ -70,9 +70,9 @@
 		  <button type="submit" id="submitButton" class="btn btn-primary">Go</button>
     </form>
     <ul id="topMenu" class="nav pull-right">
-	 <li class=""><a href="special_offer.html">Specials Offer</a></li>
-	 <li class=""><a href="normal.html">Delivery</a></li>
-	 <li class=""><a href="contact.html">Contact</a></li>
+	 <li class=""><a href="special_offer.php">Specials Offer</a></li>
+	 <li class=""><a href="normal.php">Delivery</a></li>
+	 <li class=""><a href="contact.php">Contact</a></li>
 	 <li class="">
 	 <a href="#login" role="button" data-toggle="modal" style="padding-right:0"><span class="btn btn-large btn-success">Login</span></a>
 	<div id="login" class="modal hide fade in" tabindex="-1" role="dialog" aria-labelledby="login" aria-hidden="false" >
