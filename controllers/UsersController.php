@@ -5,7 +5,7 @@ require_once("models/UsersModel.php");
 
 class UsersController extends x_Controller{
 
-    public function compte(){
+    /*public function compte(){
         $pseudo = $_SESSION["nom"];
         $citations = new Citations(null, null, null, null, $pseudo, null);
         $data = new CitationsModel();
@@ -13,13 +13,14 @@ class UsersController extends x_Controller{
         $donnees = $data->afficher($citations);
 
         $this->load->view("compte", compact("donnees"));
-    }
+    }*/
 
     public function inscription(){
+        var_dump("OUI");die();
         if(isset($_POST['inscrire'])){
             $this->inscrire();
         }
-        $this->load->view("inscription");
+        $this->load->view("register");
     }
 
     public function connect(){
