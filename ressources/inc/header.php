@@ -13,7 +13,7 @@
 	<link rel="stylesheet/less" type="text/css" href="public/themes/less/amelia.less">  MOVE DOWN TO activate
 	-->
 	<!--<link rel="stylesheet/less" type="text/css" href="public/themes/less/bootshop.less">
-	<script src="themes/js/less.js" type="text/javascript"></script> -->
+	<script src="public/themes/js/less.js" type="text/javascript"></script> -->
 
 <!-- Bootstrap style -->
     <link id="callCss" rel="stylesheet" href="public/themes/bootshop/bootstrap.min.css" media="screen"/>
@@ -35,7 +35,7 @@
 <div id="header">
 <div class="container">
 <div id="welcomeLine" class="row">
-	<div class="span6">Welcome!<strong> User</strong></div>
+	<div class="span4">Welcome!<strong> User</strong></div>
 	<div class="span6">
 	<div class="pull-right">
 		<a href="product_summary.php"><span class="">Fr</span></a>
@@ -73,7 +73,8 @@
 	 <li class=""><a href="special_offer.php">Specials Offer</a></li>
 	 <li class=""><a href="normal.php">Delivery</a></li>
 	 <li class=""><a href="contact.php">Contact</a></li>
-	 <li class="">
+
+	 <a href="index.php?kay=x-users.inscription" role="button" style="padding-right:0"><span class="btn btn-large btn-success">Register</span></a>
 	 <a href="#login" role="button" data-toggle="modal" style="padding-right:0"><span class="btn btn-large btn-success">Login</span></a>
 	<div id="login" class="modal hide fade in" tabindex="-1" role="dialog" aria-labelledby="login" aria-hidden="false" >
 		  <div class="modal-header">

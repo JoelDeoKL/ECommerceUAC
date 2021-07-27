@@ -1,28 +1,26 @@
 
 <!-- Header End====================================================================== -->
-<div id="carouselBlk">
-	<div id="myCarousel" class="carousel slide">
+<div id="myCarousel" class="carousel slide">
 		<div class="carousel-inner">
 		  <div class="item active">
-		    <div class="container">
-			    <a href="register.html"><img style="width:100%" src="public/themes/images/carousel/1.png" alt="special offers"/></a>
-		    </div>
+		  <div class="container">
+			<a href="register.html"><img style="width:100%" src="public/themes/images/carousel/1.png" alt="special offers"/></a>
+		  </div>
 		  </div>
 		  <div class="item">
-              <div class="container">
-                <a href="register.html"><img style="width:100%" src="public/themes/images/carousel/2.png" alt=""/></a>
-              </div>
+		  <div class="container">
+			<a href="register.html"><img style="width:100%" src="public/themes/images/carousel/2.png" alt=""/></a>
+		  </div>
 		  </div>
 		  <div class="item">
-              <div class="container">
-                <a href="register.html"><img src="public/themes/images/carousel/3.png" alt=""/></a>
-              <div class="carousel-caption">
+		  <div class="container">
+			<a href="register.html"><img src="public/themes/images/carousel/3.png" alt=""/></a>
 		  </div>
 		  </div>
 		   <div class="item">
-               <div class="container">
-                   <a href="register.html"><img src="public/themes/images/carousel/4.png" alt=""/></a>
-               </div>
+		   <div class="container">
+			<a href="register.html"><img src="public/themes/images/carousel/4.png" alt=""/></a>
+		  </div>
 		  </div>
 		   <div class="item">
 		   <div class="container">
@@ -105,6 +103,14 @@
 	</div>
 <!-- Sidebar end=============================================== -->
 		<div class="span9">
+
+
+		<div class="">
+            <h1>==Bienvenue à UAC Machine==</h1>
+            <p>Vous vous trouvez sur une plateforme de vente en ligne des produits de type machine appartenant à UAC.</p>
+        </div>
+
+
 			<div class="well well-small">
 			<h4>Featured Products <small class="pull-right">200+ featured products</small></h4>
 			<div class="row-fluid">

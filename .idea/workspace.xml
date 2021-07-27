@@ -11,27 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11f032fe-981a-4a36-aa62-88c3c6f10585" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uacShop.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ressources/inc/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/ressources/inc/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/compair.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/components.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/contact.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/faq.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/forgetpass.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/forgetpass.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/home.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/legal_notice.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/legal_notice.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/normal.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/product_details.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/product_details.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/product_summary.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/product_summary.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/products.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/register.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/special_offer.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/special_offer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/tac.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/tac.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +33,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../citations" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -83,9 +65,17 @@
       <screen x="0" y="40" width="1280" height="760" />
     </state>
     <state x="404" y="222" key="#com.intellij.fileTypes.FileTypeChooser/0.40.1280.760@0.40.1280.760" timestamp="1626859653560" />
+    <state x="420" y="175" key="FileChooserDialogImpl" timestamp="1627393500150">
+      <screen x="0" y="40" width="1280" height="760" />
+    </state>
+    <state x="420" y="175" key="FileChooserDialogImpl/0.40.1280.760@0.40.1280.760" timestamp="1627393500150" />
     <state x="296" y="190" key="run.anything.popup" timestamp="1627388957763">
       <screen x="0" y="40" width="1280" height="760" />
     </state>
     <state x="296" y="190" key="run.anything.popup/0.40.1280.760@0.40.1280.760" timestamp="1627388957763" />
+    <state x="303" y="121" width="672" height="678" key="search.everywhere.popup" timestamp="1627391309029">
+      <screen x="0" y="40" width="1280" height="760" />
+    </state>
+    <state x="303" y="121" width="672" height="678" key="search.everywhere.popup/0.40.1280.760@0.40.1280.760" timestamp="1627391309029" />
   </component>
 </project>
