@@ -7,7 +7,7 @@
 		  <div class="container">
 			<a href="register.html"><img style="width:100%" src="public/themes/images/carousel/1.png" alt="special offers"/></a>
 			<div class="carousel-caption">
-				  <h4>Second Thumbnail label</h4>
+				  <h4>Laptop Deel</h4>
 				  <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
 				</div>
 		  </div>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="11f032fe-981a-4a36-aa62-88c3c6f10585" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uacShop.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ressources/inc/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/ressources/inc/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/compair.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/components.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/contact.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/faq.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/forgetpass.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/forgetpass.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/legal_notice.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/legal_notice.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/normal.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/product_details.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/product_details.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/product_summary.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/product_summary.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/products.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/register.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/special_offer.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/special_offer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/tac.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/tac.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1vcQugyiNKjW9GIc8wKJvqhjsjg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="11f032fe-981a-4a36-aa62-88c3c6f10585" name="Default Changelist" comment="" />
+      <created>1626859121969</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1626859121969</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="404" y="222" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1626859653560">
+      <screen x="0" y="40" width="1280" height="760" />
+    </state>
+    <state x="404" y="222" key="#com.intellij.fileTypes.FileTypeChooser/0.40.1280.760@0.40.1280.760" timestamp="1626859653560" />
+    <state x="296" y="190" key="run.anything.popup" timestamp="1627388957763">
+      <screen x="0" y="40" width="1280" height="760" />
+    </state>
+    <state x="296" y="190" key="run.anything.popup/0.40.1280.760@0.40.1280.760" timestamp="1627388957763" />
+  </component>
+</project>

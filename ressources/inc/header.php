@@ -56,7 +56,7 @@
 	<span class="icon-bar"></span>
 </a>
   <div class="navbar-inner">
-    <a class="brand" href="index.php"><img src="public/themes/images/logo.png" alt="Bootsshop"/></a>
+    <a class="brand" href="index.php"><img src="public/themes/images/logoUAC.jpg" width="20%" alt="Bootsshop"/></a>
 		<form class="form-inline navbar-search" method="post" action="products.php" >
 		<input id="srchFld" class="srchTxt" type="text" />
 		  <select class="srchTxt">
