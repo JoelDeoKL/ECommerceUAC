@@ -1,26 +1,27 @@
 <?php
 
+require_once("entities/Citations.php");
+require_once("models/CitationsModel.php");
 require_once("entities/Users.php");
 require_once("models/UsersModel.php");
 
 class UsersController extends x_Controller{
-
-    /*public function compte(){
+    
+    public function compte(){
         $pseudo = $_SESSION["nom"];
         $citations = new Citations(null, null, null, null, $pseudo, null);
         $data = new CitationsModel();
-
+        
         $donnees = $data->afficher($citations);
-
+        
         $this->load->view("compte", compact("donnees"));
-    }*/
+    }
 
     public function inscription(){
-        var_dump("OUI");die();
         if(isset($_POST['inscrire'])){
             $this->inscrire();
         }
-        $this->load->view("register");
+        $this->load->view("inscription");
     }
 
     public function connect(){
@@ -47,7 +48,7 @@ class UsersController extends x_Controller{
         $confirm = $_POST["confirm"];
 
         $mdp = password_hash($psw, PASSWORD_BCRYPT);
-
+        
         $users = new Users(null, $pseudo, $email, $mdp);
         $connexion = new UsersModel();
 

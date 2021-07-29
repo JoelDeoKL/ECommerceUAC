@@ -11,7 +11,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11f032fe-981a-4a36-aa62-88c3c6f10585" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/HomeController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controllers/UsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/UsersController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/x_Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/x_Controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/x_Loader.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/x_Loader.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

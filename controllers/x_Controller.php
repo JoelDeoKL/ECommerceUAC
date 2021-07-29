@@ -1,15 +1,15 @@
 <?php
-
-require_once("models/x_models/MainModel.php");
+//require_once("model/tm_models/MainModel.php");
 
 class x_Controller extends x_Loader{
+    
     public $load;
 
     public function __construct(){
         $this->load = new x_Loader();
     }
 
-    /**
+        /**
      * redirection
      * @param $url
      */
