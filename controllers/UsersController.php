@@ -16,11 +16,10 @@ class UsersController extends x_Controller{
     }*/
 
     public function inscription(){
-        var_dump("OUI");die();
         if(isset($_POST['inscrire'])){
             $this->inscrire();
         }
-        $this->load->view("inscription");
+        $this->load->view("register");
     }
 
     /*public function connect(){
