@@ -57,4 +57,13 @@ class UsersModel extends MainModel{
             return false;
         }
     }
+
+    public function affiche(Users $users){
+        $query = "SELECT * FROM users LIMIT 10";
+        $sql = self::pdo()->prepare($query);
+
+        $sql->execute();
+        $donnees = $sql->fetchAll();
+        return $donnees;
+    }
 }
