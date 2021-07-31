@@ -12,9 +12,6 @@
   <component name="ChangeListManager">
     <list default="true" id="11f032fe-981a-4a36-aa62-88c3c6f10585" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ressources/inc/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/ressources/inc/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/home.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/product_details.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/product_details.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/register.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,8 +32,17 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../citations" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -47,8 +53,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1626859121969</updated>
+      <workItem from="1627653246495" duration="1982000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -67,10 +77,14 @@
       <screen x="0" y="40" width="1280" height="760" />
     </state>
     <state x="404" y="222" key="#com.intellij.fileTypes.FileTypeChooser/0.40.1280.760@0.40.1280.760" timestamp="1627395458763" />
-    <state x="420" y="175" key="FileChooserDialogImpl" timestamp="1627630185929">
+    <state x="420" y="175" key="FileChooserDialogImpl" timestamp="1627647767660">
       <screen x="0" y="40" width="1280" height="760" />
     </state>
-    <state x="420" y="175" key="FileChooserDialogImpl/0.40.1280.760@0.40.1280.760" timestamp="1627630185929" />
+    <state x="420" y="175" key="FileChooserDialogImpl/0.40.1280.760@0.40.1280.760" timestamp="1627647767660" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1627631750447">
+      <screen x="0" y="40" width="1280" height="760" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.40.1280.760@0.40.1280.760" timestamp="1627631750447" />
     <state x="296" y="190" key="run.anything.popup" timestamp="1627388957763">
       <screen x="0" y="40" width="1280" height="760" />
     </state>
