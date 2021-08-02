@@ -25,10 +25,11 @@ class UsersModel extends MainModel{
 
     public function inscription(Users $users){
 
-        $query = "INSERT INTO users SET fName=?, lName=?, email=?, mdp=?, ad";
+        $query = "INSERT INTO users SET title=?, fName=?, lName=?, email=?, mdp=?, ad";
         $sql = self::pdo()->prepare($query);
 
-        if($sql->execute([$users->getPseudo(), $users->getEmail(), $users->getMdp()])){
+        if($sql->execute([$users->getTitle(),$users->getFName(), $users->getLName(), $users->getEmail(),
+        $users->getPassword(), $users->getAddress1(), $users->getAddress2(), $users->getMobile()])){
             session_start();
             $_SESSION['nom'] = $users->getPseudo();
             header('location: index.php?kay=x-users.compte');
