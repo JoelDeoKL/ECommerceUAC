@@ -16,7 +16,7 @@ class UsersController extends x_Controller{
     }*/
 
     public function inscription(){
-        if(isset($_POST['inscrire'])){
+        if(isset($_POST['register'])){
             $this->inscrire();
         }
         $this->load->view("register");
@@ -36,24 +36,21 @@ class UsersController extends x_Controller{
             exit();
             return $html;
         }
-    }
+    }*/
 
     public function inscrire(){
-        $this->load->model("UsersModel");
-        $pseudo = $_POST["pseudo"];
-        $email = $_POST["email"];
-        $psw = $_POST["mdp"];
-        $confirm = $_POST["confirm"];
 
-        $mdp = password_hash($psw, PASSWORD_BCRYPT);
+        extract($_POST);
+
+        $mdp = password_hash($password, PASSWORD_BCRYPT);
         
-        $users = new Users(null, $pseudo, $email, $mdp);
+        $users = new Users(null, $title, $fName, $lName, $email, $mdp,  $address1, $address2, $mobile);
         $connexion = new UsersModel();
 
         if($connexion->check($users)){
             header('Location: index.php?kay=x-users.inscription');
         }else{
-            if ($psw == $confirm){
+            if ($password == $confirm){
                 $connexion->inscription($users);
             }else{
                 echo 'Veuillez utiliser le meme mot de passe.';
@@ -61,7 +58,7 @@ class UsersController extends x_Controller{
         }
     }
 
-    public function connexion(){
+    /*public function connexion(){
         $this->load->model("UsersModel");
         $email = $_POST["email"];
         $psw = $_POST["mdp"];

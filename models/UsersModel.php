@@ -25,7 +25,7 @@ class UsersModel extends MainModel{
 
     public function inscription(Users $users){
 
-        $query = "INSERT INTO users SET pseudo=?, email=?, mdp=?";
+        $query = "INSERT INTO users SET fName=?, lName=?, email=?, mdp=?, ad";
         $sql = self::pdo()->prepare($query);
 
         if($sql->execute([$users->getPseudo(), $users->getEmail(), $users->getMdp()])){

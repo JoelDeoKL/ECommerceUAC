@@ -109,45 +109,24 @@
 		<div class="controls">
 		  <input type="password" id="inputPassword1" placeholder="Password" name="password">
 		</div>
-	  </div>	  
-		<div class="control-group">
-		<label class="control-label">Date of Birth <sup>*</sup></label>
-		<div class="controls">
-		  <select class="span1" name="days">
-				<option value="">-</option>
-					<option value="1">1&nbsp;&nbsp;</option>
-					<option value="2">2&nbsp;&nbsp;</option>
-					<option value="3">3&nbsp;&nbsp;</option>
-					<option value="4">4&nbsp;&nbsp;</option>
-					<option value="5">5&nbsp;&nbsp;</option>
-					<option value="6">6&nbsp;&nbsp;</option>
-					<option value="7">7&nbsp;&nbsp;</option>
-			</select>
-			<select class="span1" name="month">
-				<option value="">-</option>
-					<option value="1">1&nbsp;&nbsp;</option>
-					<option value="2">2&nbsp;&nbsp;</option>
-					<option value="3">3&nbsp;&nbsp;</option>
-					<option value="4">4&nbsp;&nbsp;</option>
-					<option value="5">5&nbsp;&nbsp;</option>
-					<option value="6">6&nbsp;&nbsp;</option>
-					<option value="7">7&nbsp;&nbsp;</option>
-			</select>
-            <input type="text" id="years" placeholder="2021">
-		</div>
 	  </div>
-		
+	  <div class="control-group">
+      		<label class="control-label" for="inputPassword1">Confirmer Mot de passe <sup>*</sup></label>
+      		<div class="controls">
+      		  <input type="password" id="inputPassword1" placeholder="Confirm Password" name="confirm">
+      		</div>
+      	  </div>
 		<div class="control-group">
-			<label class="control-label" for="address">Address<sup>*</sup></label>
+			<label class="control-label" for="address1">Address<sup>*</sup></label>
 			<div class="controls">
-			  <input type="text" id="address" placeholder="Adress"/> <span>Street address, P.O. box, company name, c/o</span>
+			  <input type="text" id="address1" placeholder="Adress" name="address1"/> <span>Street address, P.O. box, company name, c/o</span>
 			</div>
 		</div>
 		
 		<div class="control-group">
 			<label class="control-label" for="address2">Address (Line 2)<sup>*</sup></label>
 			<div class="controls">
-			  <input type="text" id="address2" placeholder="Adress line 2"/> <span>Apartment, suite, unit, building, floor, etc.</span>
+			  <input type="text" id="address2" placeholder="Adress line 2" name="address2"/> <span>Apartment, suite, unit, building, floor, etc.</span>
 			</div>
 		</div>
 		<div class="control-group">
@@ -161,9 +140,7 @@
 	
 	<div class="control-group">
 			<div class="controls">
-				<input type="hidden" name="email_create" value="1">
-				<input type="hidden" name="is_new_customer" value="1">
-				<input class="btn btn-large btn-success" type="submit" value="register" />
+				<input class="btn btn-large btn-success" type="submit" value="register" name="register"/>
 			</div>
 		</div>		
 	</form>

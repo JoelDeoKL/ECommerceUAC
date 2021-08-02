@@ -8,20 +8,18 @@ class Users{
     private $lastName;
     private $email;
     private $password;
-    private $dateNaissance;
     private $adresse1;
     private $adresse2;
     private $numeroTelephone;
 
 
-    public function __construct($id_user, $title, $firstName, $lastName, $email, $password, $dateNaissance, $adresse1, $adresse2, $numeroTelephone){
+    public function __construct($id_user, $title, $firstName, $lastName, $email, $password, $adresse1, $adresse2, $numeroTelephone){
         $this->id_user = $id_user;
         $this->title = $title;
         $this->firstName = $firstName;
         $this->lastName = $lastName;
         $this->email = $email;
         $this->password = $password;
-        $this->dateNaissance = $dateNaissance;
         $this->adresse1 = $adresse1;
         $this->adresse2 = $adresse2;
         $this->numeroTelephone = $numeroTelephone;
@@ -49,10 +47,6 @@ class Users{
 
     public function getPassword() {
         return $this->password;
-    }
-
-    public function getDateNaissance() {
-        return $this->dateNaissance;
     }
 
     public function getAdresse1() {
@@ -85,10 +79,6 @@ class Users{
 
     public function setPassword($password) {
         $this->password = $password;
-    }
-
-    public function setDateNaissance($dateNaissance) {
-        $this->dateNaissance = $dateNaissance;
     }
 
     public function setAdresse1($adresse1) {
