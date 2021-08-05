@@ -43,8 +43,9 @@ class UsersController extends x_Controller{
         extract($_POST);
 
         $mdp = password_hash($password, PASSWORD_BCRYPT);
-        
-        $users = new Users(null, $title, $fName, $lName, $email, $mdp,  $address1, $address2, $mobile);
+
+        //var_dump($title . $fName . $lName . $email . $mdp .  $adress1 . $adress2 . $mobile);die();
+        $users = new Users(null, $title, $fName, $lName, $email, $password,  $adress1, $adress2, $mobile);
         $connexion = new UsersModel();
 
         if($connexion->check($users)){

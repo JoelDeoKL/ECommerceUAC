@@ -6,7 +6,6 @@ require_once("models/x_models/MainModel.php");
 class UsersModel extends MainModel{
 
     public function check(Users $users){
-
         $query = "SELECT * FROM users WHERE email=?";
         $sql = self::pdo()->prepare($query);
 
@@ -24,15 +23,13 @@ class UsersModel extends MainModel{
    }
 
     public function inscription(Users $users){
-
-        $query = "INSERT INTO users SET title=?, fName=?, lName=?, email=?, mdp=?, ad";
+        $query = "INSERT INTO users SET title=?, fName=?, lName=?, email=?, password=?, adress1=?, adress2=?, mobile=?";
         $sql = self::pdo()->prepare($query);
 
-        if($sql->execute([$users->getTitle(),$users->getFName(), $users->getLName(), $users->getEmail(),
-        $users->getPassword(), $users->getAddress1(), $users->getAddress2(), $users->getMobile()])){
-            session_start();
-            $_SESSION['nom'] = $users->getPseudo();
-            header('location: index.php?kay=x-users.compte');
+        if($sql->execute([$users->getTitle(), $users->getFName(), $users->getLName(), $users->getEmail(),
+        $users->getPassword(), $users->getAdress1(), $users->getAdress2(), $users->getMobile()])){
+            $_SESSION['nom'] = $users->getLName();
+            header('location: index.php?kay=x-users.panier');
         }
         return false;
 

@@ -117,16 +117,16 @@
       		</div>
       	  </div>
 		<div class="control-group">
-			<label class="control-label" for="address1">Address<sup>*</sup></label>
+			<label class="control-label" for="adress1">Address<sup>*</sup></label>
 			<div class="controls">
-			  <input type="text" id="address1" placeholder="Adress" name="address1"/> <span>Street address, P.O. box, company name, c/o</span>
+			  <input type="text" id="adress1" placeholder="Adress" name="adress1"/> <span>Street address, P.O. box, company name, c/o</span>
 			</div>
 		</div>
 		
 		<div class="control-group">
-			<label class="control-label" for="address2">Address (Line 2)<sup>*</sup></label>
+			<label class="control-label" for="adress2">Address (Line 2)<sup>*</sup></label>
 			<div class="controls">
-			  <input type="text" id="address2" placeholder="Adress line 2" name="address2"/> <span>Apartment, suite, unit, building, floor, etc.</span>
+			  <input type="text" id="adress2" placeholder="Adress line 2" name="adress2"/> <span>Apartment, suite, unit, building, floor, etc.</span>
 			</div>
 		</div>
 		<div class="control-group">

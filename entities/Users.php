@@ -4,25 +4,24 @@ class Users{
 
     private $id_user;
     private $title;
-    private $firstName;
-    private $lastName;
+    private $fName;
+    private $lName;
     private $email;
     private $password;
-    private $adresse1;
-    private $adresse2;
-    private $numeroTelephone;
+    private $adress1;
+    private $adress2;
+    private $mobile;
 
-
-    public function __construct($id_user, $title, $firstName, $lastName, $email, $password, $adresse1, $adresse2, $numeroTelephone){
+    public function __construct($id_user, $title, $fName, $lName, $email, $password, $adress1, $adress2, $mobile){
         $this->id_user = $id_user;
         $this->title = $title;
-        $this->firstName = $firstName;
-        $this->lastName = $lastName;
+        $this->fName = $fName;
+        $this->lName = $lName;
         $this->email = $email;
         $this->password = $password;
-        $this->adresse1 = $adresse1;
-        $this->adresse2 = $adresse2;
-        $this->numeroTelephone = $numeroTelephone;
+        $this->adress1 = $adress1;
+        $this->adress2 = $adress2;
+        $this->mobile = $mobile;
     }
 
     public function getIdUser() {
@@ -33,12 +32,12 @@ class Users{
         return $this->title;
     }
 
-    public function getFirstName() {
-        return $this->firstName;
+    public function getFName() {
+        return $this->fName;
     }
 
-    public function getLastName() {
-        return $this->lastName;
+    public function getLName() {
+        return $this->lName;
     }
 
     public function getEmail() {
@@ -49,28 +48,28 @@ class Users{
         return $this->password;
     }
 
-    public function getAdresse1() {
-        return $this->adresse1;
+    public function getAdress1() {
+        return $this->adress1;
     }
 
-    public function getAdresse2() {
-        return $this->adresse2;
+    public function getAdress2() {
+        return $this->adress2;
     }
 
-    public function getNumeroTelephone() {
-        return $this->numeroTelephone;
+    public function getmobile() {
+        return $this->mobile;
     }
 
     public function setIdUser($id_user) {
         $this->id_user = $id_user;
     }
 
-    public function setFistName($firstName) {
-        $this->firstName = $firstName;
+    public function setFistName($fName) {
+        $this->fName = $fName;
     }
 
-    public function setLastName($lastName) {
-        $this->lastName = $lastName;
+    public function setlName($lName) {
+        $this->lName = $lName;
     }
 
     public function setEmail($email) {
@@ -81,15 +80,15 @@ class Users{
         $this->password = $password;
     }
 
-    public function setAdresse1($adresse1) {
-        $this->adresse1 = $adresse1;
+    public function setAdress1($adress1) {
+        $this->adress1 = $adress1;
     }
 
-    public function setAdresse2($adresse2) {
-        $this->adresse2 = $adresse2;
+    public function setAdress2($adress2) {
+        $this->adress2 = $adress2;
     }
 
-    public function setANumeroTelephone($numeroTelephone) {
-        $this->numeroTelephone = $numeroTelephone;
+    public function setAmobile($mobile) {
+        $this->mobile = $mobile;
     }
 }
