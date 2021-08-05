@@ -74,31 +74,19 @@
 	 <li class=""><a href="normal.php">Delivery</a></li>
 	 <li class=""><a href="contact.php">Contact</a></li>
 
-	 <a href="index.php?kay=x-users.inscription" role="button" style="padding-right:0"><span class="btn btn-large btn-success">Register</span></a>
-	 <a href="#login" role="button" data-toggle="modal" style="padding-right:0"><span class="btn btn-large btn-success">Login</span></a>
-	<div id="login" class="modal hide fade in" tabindex="-1" role="dialog" aria-labelledby="login" aria-hidden="false" >
-		  <div class="modal-header">
-			<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-			<h3>Login Block</h3>
-		  </div>
-		  <div class="modal-body">
-			<form class="form-horizontal loginFrm" action="#" method="POST">
-			  <div class="control-group">
-				<input type="text" id="inputEmail" name="email" placeholder="Email">
-			  </div>
-			  <div class="control-group">
-				<input type="password" id="inputPassword" nam="password" placeholder="Password">
-			  </div>
-			  <div class="control-group">
-				<label class="checkbox">
-				<input type="checkbox"> Remember me
-				</label>
-			  </div>
-			    <button type="submit" name="envoyer" class="btn btn-success">Sign in</button>
-                <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
-			</form>
-		  </div>
-	</div>
+        <?php
+        if(isset($_SESSION["nom"])){
+            ?>
+            <a href="index.php?kay=x-users.inscription" role="button" style="padding-right:0"><span class="btn btn-large btn-success">Panier</span></a>
+            <a href="index.php?kay=x-users.deconnexion" role="button"  style="padding-right:0"><span class="btn btn-large btn-success">Deconnexion(<?= $_SESSION["nom"];?>)</span></a>
+            <?php
+        }else{
+            ?>
+            <a href="index.php?kay=x-users.inscription" role="button" style="padding-right:0"><span class="btn btn-large btn-success">Register</span></a>
+            <a href="index.php?kay=x-users.connect" role="button"  style="padding-right:0"><span class="btn btn-large btn-success">Login</span></a>
+            <?php
+        }
+        ?>
 	</li>
     </ul>
   </div>

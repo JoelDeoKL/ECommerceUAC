@@ -5,7 +5,7 @@
 	<div class="row">
 <!-- Sidebar ================================================== -->
 	<div id="sidebar" class="span3">
-		<div class="well well-small"><a id="myCart" href="product_summary.php"><img src="themes/images/ico-cart.png" alt="cart">3 Items in your cart  <span class="badge badge-warning pull-right">$155.00</span></a></div>
+		<div class="well well-small"><a id="myCart" href="product_summary.php"><img src="public/themes/images/ico-cart.png" alt="cart">3 Items in your cart  <span class="badge badge-warning pull-right">$155.00</span></a></div>
 		<ul id="sideManu" class="nav nav-tabs nav-stacked">
 			<li class="subMenu open"><a> ELECTRONICS [230]</a>
 				<ul>
@@ -44,21 +44,21 @@
 		</ul>
 		<br/>
 		  <div class="thumbnail">
-			<img src="themes/images/products/panasonic.jpg" alt="Bootshop panasonoc New camera"/>
+			<img src="public/themes/images/products/panasonic.jpg" alt="Bootshop panasonoc New camera"/>
 			<div class="caption">
 			  <h5>Panasonic</h5>
 				<h4 style="text-align:center"><a class="btn" href="product_details.php"> <i class="icon-zoom-in"></i></a> <a class="btn" href="#">Add to <i class="icon-shopping-cart"></i></a> <a class="btn btn-primary" href="#">$222.00</a></h4>
 			</div>
 		  </div><br/>
 			<div class="thumbnail">
-				<img src="themes/images/products/kindle.png" title="Bootshop New Kindel" alt="Bootshop Kindel">
+				<img src="public/themes/images/products/kindle.png" title="Bootshop New Kindel" alt="Bootshop Kindel">
 				<div class="caption">
 				  <h5>Kindle</h5>
 				    <h4 style="text-align:center"><a class="btn" href="product_details.php"> <i class="icon-zoom-in"></i></a> <a class="btn" href="#">Add to <i class="icon-shopping-cart"></i></a> <a class="btn btn-primary" href="#">$222.00</a></h4>
 				</div>
 			  </div><br/>
 			<div class="thumbnail">
-				<img src="themes/images/payment_methods.png" title="Bootshop Payment Methods" alt="Payments Methods">
+				<img src="public/themes/images/payment_methods.png" title="Bootshop Payment Methods" alt="Payments Methods">
 				<div class="caption">
 				  <h5>Payment Methods</h5>
 				</div>
@@ -74,43 +74,27 @@
 	<hr class="soft"/>
 	
 	<div class="row">
-		<div class="span4">
-			<div class="well">
-			<h5>CREATE YOUR ACCOUNT</h5><br/>
-			Enter your e-mail address to create an account.<br/><br/><br/>
-			<form action="register.php">
-			  <div class="control-group">
-				<label class="control-label" for="inputEmail0">E-mail address</label>
-				<div class="controls">
-				  <input class="span3"  type="text" id="inputEmail0" placeholder="Email">
-				</div>
-			  </div>
-			  <div class="controls">
-			  <button type="submit" class="btn block">Create Your Account</button>
-			  </div>
-			</form>
-		</div>
-		</div>
+
 		<div class="span1"> &nbsp;</div>
 		<div class="span4">
 			<div class="well">
 			<h5>ALREADY REGISTERED ?</h5>
-			<form>
+			<form class="form-central" method="POST" action="#">
 			  <div class="control-group">
 				<label class="control-label" for="inputEmail1">Email</label>
 				<div class="controls">
-				  <input class="span3"  type="text" id="inputEmail1" placeholder="Email">
+				  <input class="span3"  type="text" id="inputEmail1" name="email" placeholder="Email">
 				</div>
 			  </div>
 			  <div class="control-group">
 				<label class="control-label" for="inputPassword1">Password</label>
 				<div class="controls">
-				  <input type="password" class="span3"  id="inputPassword1" placeholder="Password">
+				  <input type="password" class="span3"  id="inputPassword1" name="password" placeholder="Password">
 				</div>
 			  </div>
 			  <div class="control-group">
 				<div class="controls">
-				  <button type="submit" class="btn">Sign in</button> <a href="forgetpass.php">Forget password?</a>
+                    <input type="submit" class="btn" value="Sign In" name="connexion"><a href="forgetpass.php">Forget password?</a>
 				</div>
 			  </div>
 			</form>
@@ -152,9 +136,9 @@
 			 </div>
 			<div id="socialMedia" class="span3 pull-right">
 				<h5>SOCIAL MEDIA </h5>
-				<a href="#"><img width="60" height="60" src="themes/images/facebook.png" title="facebook" alt="facebook"/></a>
-				<a href="#"><img width="60" height="60" src="themes/images/twitter.png" title="twitter" alt="twitter"/></a>
-				<a href="#"><img width="60" height="60" src="themes/images/youtube.png" title="youtube" alt="youtube"/></a>
+				<a href="#"><img width="60" height="60" src="public/themes/images/facebook.png" title="facebook" alt="facebook"/></a>
+				<a href="#"><img width="60" height="60" src="public/themes/images/twitter.png" title="twitter" alt="twitter"/></a>
+				<a href="#"><img width="60" height="60" src="public/themes/images/youtube.png" title="youtube" alt="youtube"/></a>
 			 </div> 
 		 </div>
 		<p class="pull-right">&copy; Bootshop</p>

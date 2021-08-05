@@ -12,12 +12,17 @@
   <component name="ChangeListManager">
     <list default="true" id="11f032fe-981a-4a36-aa62-88c3c6f10585" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/UsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/UsersController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ressources/inc/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/ressources/inc/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/login.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -42,6 +47,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
@@ -69,7 +75,8 @@
       <updated>1626859121969</updated>
       <workItem from="1627653246495" duration="17321000" />
       <workItem from="1628110126678" duration="592000" />
-      <workItem from="1628128413018" duration="2438000" />
+      <workItem from="1628128413018" duration="3814000" />
+      <workItem from="1628150338809" duration="6863000" />
     </task>
     <servers />
   </component>
@@ -87,27 +94,5 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="404" y="222" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1627395458763">
-      <screen x="0" y="40" width="1280" height="760" />
-    </state>
-    <state x="404" y="222" key="#com.intellij.fileTypes.FileTypeChooser/0.40.1280.760@0.40.1280.760" timestamp="1627395458763" />
-    <state x="420" y="175" key="FileChooserDialogImpl" timestamp="1627723102893">
-      <screen x="0" y="40" width="1280" height="760" />
-    </state>
-    <state x="420" y="175" key="FileChooserDialogImpl/0.40.1280.760@0.40.1280.760" timestamp="1627723102893" />
-    <state width="498" height="446" key="SwitcherDM" timestamp="1627631750447">
-      <screen x="0" y="40" width="1280" height="760" />
-    </state>
-    <state width="498" height="446" key="SwitcherDM/0.40.1280.760@0.40.1280.760" timestamp="1627631750447" />
-    <state x="296" y="190" key="run.anything.popup" timestamp="1627388957763">
-      <screen x="0" y="40" width="1280" height="760" />
-    </state>
-    <state x="296" y="190" key="run.anything.popup/0.40.1280.760@0.40.1280.760" timestamp="1627388957763" />
-    <state x="303" y="121" width="672" height="678" key="search.everywhere.popup" timestamp="1627396104909">
-      <screen x="0" y="40" width="1280" height="760" />
-    </state>
-    <state x="303" y="121" width="672" height="678" key="search.everywhere.popup/0.40.1280.760@0.40.1280.760" timestamp="1627396104909" />
   </component>
 </project>

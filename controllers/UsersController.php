@@ -22,11 +22,30 @@ class UsersController extends x_Controller{
         $this->load->view("register");
     }
 
-    /*public function connect(){
+    public function connect(){
         if(isset($_POST['connexion'])){
             $this->connexion();
         }
-        $this->load->view("connexion");
+        $this->load->view("login");
+    }
+
+    public function connexion(){
+        $this->load->model("UsersModel");
+
+        extract($_POST);
+
+        $mdp = password_hash($password, PASSWORD_BCRYPT);
+
+        $users = new Users(null, null, null, null, $email, $mdp, null, null, null);
+        $connexion = new UsersModel();
+
+        if($connexion->check($users)){
+            if($connexion->connexion($users)){
+                header('location: index.php?kay=x-users.compte');
+            }
+        }else{
+            header('Location: index.php?kay=x-users.connect');
+        }
     }
 
     public function deconnexion(){
@@ -36,7 +55,7 @@ class UsersController extends x_Controller{
             exit();
             return $html;
         }
-    }*/
+    }
 
     public function inscrire(){
 
@@ -58,23 +77,4 @@ class UsersController extends x_Controller{
             }
         }
     }
-
-    /*public function connexion(){
-        $this->load->model("UsersModel");
-        $email = $_POST["email"];
-        $psw = $_POST["mdp"];
-
-        $mdp = password_hash($psw, PASSWORD_BCRYPT);
-
-        $users = new Users(null, null, $email, $mdp);
-        $connexion = new UsersModel();
-
-        if($connexion->check($users)){
-            if($connexion->connexion($users)){
-                header('location: index.php?kay=x-users.compte');
-            }
-        }else{
-            header('Location: index.php?kay=x-users.connect');
-        }
-    }*/
 }
