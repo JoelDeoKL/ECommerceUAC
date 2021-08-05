@@ -41,15 +41,15 @@ class UsersController extends x_Controller{
 
         if($connexion->check($users)){
             if($connexion->connexion($users)){
-                header('location: index.php?kay=x-users.compte');
+                header('location: index.php');
             }
         }else{
-            header('Location: index.php?kay=x-users.connect');
+            header('Location: index.php');
         }
     }
 
     public function deconnexion(){
-        if(isset($_SESSION['nom'])){
+        if(isset($_SESSION["nom"])){
             session_destroy();
             header('Location: index.php');
             exit();
